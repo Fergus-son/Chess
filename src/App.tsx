@@ -1,10 +1,11 @@
 import './App.css'
+import { BoardComponent } from './components/BoardComponent'
 // import styled from "styled-components";
 
 function App() {
     return (
-        <div className="App">
-            {/* <Title>Start Project</Title> */}
+        <div className="app">
+            <BoardComponent />
         </div>
     )
 }
